@@ -5,8 +5,6 @@
 **Making your HTML contact form functional is quite easy with this PHP script.**
 
 Integrate a contact form in an HTML file.   
-All input fields and text areas should have an name attribute. The name attribute of the email input field should have the value 'email'. Otherwise, the PHP file would have to be minimally adjusted.
-Give the action attribute as value the name of the PHP file _(send-mail.php)_. Pay attention to the correct path.
 
 Simple example:
 ```
@@ -18,6 +16,10 @@ Simple example:
    <input type="submit" name="submit" value="submit">
 </form>
 ```
+
+All input fields and text areas should have an name attribute. The name attribute of the email input field should have the value 'email'. Otherwise, the PHP file would have to be minimally adjusted.
+Give the action attribute as value the name of the PHP file _(send-mail.php)_. Pay attention to the correct path.   
+
 
 **You have to adjust the following information in the PHP file:**
 
